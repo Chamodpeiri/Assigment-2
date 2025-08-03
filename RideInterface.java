@@ -1,14 +1,13 @@
+/**
+ * Interface for defining ride operations.
+ */
 public interface RideInterface {
-    void addVisitorToQueue(Visitor visitor);
+    void addVisitorToQueue(Visitor v);
     void removeVisitorFromQueue();
     void printQueue();
-
-    void addVisitorToHistory(Visitor visitor);
-    boolean checkVisitorFromHistory(Visitor visitor);
+    void runOneCycle();
+    void addVisitorToHistory(Visitor v);
+    boolean checkVisitorFromHistory(Visitor v);
     int numberOfVisitors();
     void printRideHistory();
-
-    void runOneCycle();
-    void exportRideHistory(String filename);
-    void importRideHistory(String filename);
 }

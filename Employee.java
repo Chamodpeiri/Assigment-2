@@ -1,35 +1,21 @@
+/**
+ * Represents an employee (ride operator) at the theme park.
+ */
 public class Employee extends Person {
     private String position;
-    private String shift;
+    private int experienceYears;
 
-    public Employee() {
-        super();
-    }
+    public Employee() {}
 
-    public Employee(String name, int age, String id, String position, String shift) {
+    public Employee(String name, int age, String id, String position, int experienceYears) {
         super(name, age, id);
         this.position = position;
-        this.shift = shift;
+        this.experienceYears = experienceYears;
     }
 
-    public String getPosition() {
-        return position;
-    }
+    public String getPosition() { return position; }
+    public void setPosition(String position) { this.position = position; }
 
-    public String getShift() {
-        return shift;
-    }
-
-    public void setPosition(String position) {
-        this.position = position;
-    }
-
-    public void setShift(String shift) {
-        this.shift = shift;
-    }
-
-    @Override
-    public String toString() {
-        return getName() + " (" + position + ", " + shift + ")";
-    }
+    public int getExperienceYears() { return experienceYears; }
+    public void setExperienceYears(int experienceYears) { this.experienceYears = experienceYears; }
 }

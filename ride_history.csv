@@ -1,5 +1,4 @@
-Alice,21,ID201,Regular,1
-Bob,24,ID202,VIP,2
-Cleo,23,ID203,Premium,1
-Dane,26,ID204,Regular,3
-Ella,22,ID205,VIP,1
+Name,Age,ID,Ticket Type,Group Number
+Eva,26,ID9,Regular,2
+Mark,28,ID10,VIP,3
+chamod,24,1001,vip,1
