@@ -1,0 +1,28 @@
+﻿name,age,id,ticketType,groupSize
+John Doe,25,ID1,VIP,2
+Jane Smith,30,ID2,Regular,1
+Bob Brown,18,ID3,Regular,4
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,"name,age,id,ticketType,groupSize"
+,,,,,,,,,,"John Doe,25,ID1,VIP,2"
+,,,,,,,,,,"Jane Smith,30,ID2,Regular,1"
+,,,,,,,,,,"Bob Brown,18,ID3,Regular,4"
